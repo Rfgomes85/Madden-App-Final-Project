@@ -1,0 +1,136 @@
+.app {
+  background-color: black;
+  color: white;
+}
+
+.text-light-blue {
+  color: #add8e6; /* Light blue color */
+}
+
+
+.custom-button {
+  background-color: gray;
+  color: lightblue;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  border-style: double;
+  border-color: black;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0;
+}
+
+.tab-link {
+  text-decoration: none;
+  color: rgb(0, 179, 255);
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.tab-link:hover {
+  border-bottom-color: rgb(0, 179, 255);
+}
+
+.active-tab {
+  border-bottom-color: rgb(0, 179, 255);
+}
+
+
+/* Add margin between links */
+a {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+/* Add padding between links */
+a {
+  padding-right: 10px; /* Adjust the value as needed */
+}
+
+/* .tab-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lightblue;
+  color: white;
+  text-decoration: none;
+  border: 1px solid lightblue;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Style for the active tab link */
+.tab-link.active {
+  background-color: white;
+  color: lightblue;
+  border-color: lightblue;
+} */
+
+
+.star-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-size: larger;
+  
+}
+
+.star-bullets li:before {
+  content: "★";
+  color: gold;
+  margin-right: 0.5rem;
+  font-size: 1.5rem; /* Adjust the font size to make the stars bigger */
+}
+
+h1, p, h2, h3  {
+  color: white;
+}
+
+.input-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.comment {
+  width: 25%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  font-size: larger;
+}
+.footer {
+  background-color: rgb(0, 179, 255);
+  padding: 20;
+  font-size: larger;
+  font-weight: bolder;
+  color: black;
+ }
+
+ .success-alert {
+  font-size: 48px;
+  color: green;
+}
+
